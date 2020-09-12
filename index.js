@@ -1,10 +1,10 @@
 // Code your solutions in this file
 function writeCards(names, adj){
-    
+    let thankYous = []
     for (let i = 0; i < names.length; i++){
-       names[i] = `Thank you, ${names[i]}, for the wonderful ${adj} gift!`
+       thankYous.push(`Thank you, ${names[i]}, for the wonderful ${adj} gift!`)
     }
-    return names
+    return thankYous
 }
 
 function countDown(num){
